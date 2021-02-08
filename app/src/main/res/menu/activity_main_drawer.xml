@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Mash"
+            android:icon="@mipmap/mash"
+            android:title="Mash" />
+        <item
+            android:id="@+id/nav_Boil"
+            android:icon="@mipmap/boil"
+            android:title="Boil" />
+        <item
+            android:id="@+id/nav_Cool"
+            android:icon="@mipmap/cool"
+            android:title="Cool" />
+        <item
+            android:id="@+id/nav_Recipes"
+            android:icon="@mipmap/recipes"
+            android:title="Recipes" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+</menu>
